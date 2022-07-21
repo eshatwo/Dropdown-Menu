@@ -1,8 +1,9 @@
 # Instructions
 
 ## To Run the Project
+First, clone the repository.
 
-Navigate to the project directory and run:
+Then, navigate to the project directory and run:
 
 ### `npm install`
 
