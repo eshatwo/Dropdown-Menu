@@ -1,0 +1,88 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-container {
+  padding: 10px;
+}
+
+.dropdown-label {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 32px;
+  margin: auto;
+  padding: 10px;
+  text-size-adjust: auto;
+  background: white;
+  border: 1px solid rgb(32, 108, 253);
+  border-radius: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdown-menu {
+  margin: 0;
+  padding-top: 5;
+  vertical-align: top;
+  width: 270px;
+  position: relative;
+  border-left: .5px solid black;
+  border-right: .5px solid black;
+  display: inline-block;
+}
+
+.menu-label {
+  color: rgb(32, 108, 253);
+  font-size: 15px
+}
+
+.dropdown-item {
+  text-size-adjust: auto;
+  width: 270px;
+  height: 40px;
+  text-align: left;
+  margin: auto;
+  background-color: white;
+  color: black;
+  padding: 8px;
+  font-size: 16px;
+  border-top: 0ch;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-bottom: .5px solid black;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.dropdown-item-clear {
+  text-size-adjust: auto;
+  width: 270px;
+  text-align: left;
+  background-color: white;
+  color: rgb(32, 108, 253);
+  padding: 8px;
+  font-size: 16px;
+  border-top: 0ch;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-bottom: .5px solid black;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown-item:hover {
+  color: rgb(32, 108, 253);
+}
+
+.dropdown-container:active .dropdown_menu {
+  display: block;
+}
+
+.img-class {
+   width: 10%; height: 100%; 
+   margin-left: auto; 
+   margin-right: 0;
+
+}
