@@ -4,12 +4,9 @@
 
 Navigate to the project directory and run:
 
+### `npm install`
+
 ### `npm start`
-
-<br>
-In order to test, run:
-
-### `npm test`
 <br>
 
 # Notes
@@ -41,6 +38,7 @@ Dummy data is currently populating the dropdown menus in the index.js file.
 Some thing that need improvement and action steps include:
 - Clear selection button should change images in dropdown menu while selecting multiple items
 - Use Sass to make styling less redundant
+- Add unit testing
 - Text in display should scroll from left to right
 - Accessibility (aria-labels, keyboard compatibility)
 - Dropdown items to be seperate components
